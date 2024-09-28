@@ -22,3 +22,10 @@ class GetsiteFields(models.Model):
 
     def __str__(self):
         return self.site_name
+
+
+class CheckStatistics(models.Model):
+    model_name = models.CharField(max_length=100)
+
+    def __str__(self) -> str:
+        return super().__str__()
