@@ -22,3 +22,6 @@ class GetsiteFields(models.Model):
 
     def __str__(self):
         return self.site_name
+
+class Demo(models.Model):
+    name = models.CharField()
