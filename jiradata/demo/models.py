@@ -29,3 +29,7 @@ class CheckStatistics(models.Model):
 
     def __str__(self) -> str:
         return super().__str__()
+      
+
+class Demo(models.Model):
+    name = models.CharField()
